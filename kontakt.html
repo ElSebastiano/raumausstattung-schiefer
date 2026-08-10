@@ -54,9 +54,6 @@
 </header>
 
 <main id="main">
-  <nav class="breadcrumbs container" aria-label="Breadcrumb" style="padding-top:1.4rem;">
-    <a href="index.html">Start</a> / <span aria-current="page">Kontakt</span>
-  </nav>
 
   <section class="page-hero">
     <div class="container">
@@ -161,17 +158,16 @@
     <div class="container">
       <h2>Anfahrt</h2>
       <div class="map-frame">
-        <!-- Google Maps (interaktiv): PLATZHALTER für API-Key.
-             <iframe
-               src="https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=Raumausstattung+Schiefer,Siebenb%C3%BCrgener+Weg+4,78467+Konstanz"
-               loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Anfahrt Raumausstattung Schiefer"></iframe>
-        -->
-        <div class="map-fallback">
-          <strong>Karte lädt nach Ergänzung eines API-Keys</strong>
-          <p style="margin:0;">Bitte YOUR_GOOGLE_MAPS_API_KEY im Quellcode dieser Seite ergänzen, um die interaktive Karte zu aktivieren.</p>
-          <a class="btn btn-secondary" href="https://www.google.com/maps/search/?api=1&query=Raumausstattung+Schiefer+Siebenb%C3%BCrgener+Weg+4+78467+Konstanz" target="_blank" rel="noopener">In Google Maps öffnen</a>
-        </div>
+        <iframe
+          src="https://www.google.com/maps?q=Raumausstattung+Schiefer,+Siebenb%C3%BCrgener+Weg+4,+78467+Konstanz&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Anfahrt: Raumausstattung Schiefer, Siebenbürgener Weg 4, 78467 Konstanz"
+          aria-label="Interaktive Karte mit dem Standort von Raumausstattung Schiefer"></iframe>
       </div>
+      <p class="hint" style="display:block;margin-top:0.6rem;">
+        <a href="https://www.google.com/maps/search/?api=1&query=Raumausstattung+Schiefer+Siebenb%C3%BCrgener+Weg+4+78467+Konstanz" target="_blank" rel="noopener">In Google Maps öffnen</a>
+      </p>
     </div>
   </section>
 
