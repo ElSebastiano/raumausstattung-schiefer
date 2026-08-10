@@ -173,15 +173,11 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background: var(--color-wald);
-  color: var(--color-leinen);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: 1.15rem;
   flex-shrink: 0;
+  display: block;
+}
+.footer-brand .brand-mark {
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.08);
 }
 .brand-text {
   display: flex;
