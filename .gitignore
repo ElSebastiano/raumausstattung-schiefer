@@ -1,0 +1,11 @@
+# Interne Analyse- und Rechercheunterlagen (nicht für die Veröffentlichung bestimmt)
+phase1_analyse.md
+phase2_markenanalyse.md
+phase3_strategie.md
+phase4_umsetzung.md
+*_Akquise.md
+docs/
+
+# Bild-Zwischenformate: nur die optimierten .webp (und das PNG-Fallback des Hero-Bilds)
+# werden ausgeliefert, die rohen .jpg-Downloads sind Duplikate der .webp-Dateien.
+assets/img/*.jpg

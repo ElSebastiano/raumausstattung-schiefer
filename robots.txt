@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://raumausstattung-schiefer.aurora-innovations.de/sitemap.xml
